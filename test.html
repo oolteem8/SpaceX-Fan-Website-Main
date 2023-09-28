@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container {
+                scroll-snap-type: y mandatory;
+            }
+
+            .child {
+                font-size: 500px;
+                scroll-snap-align: start;
+            }
+
+            #one {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <div class="child" id="one">
+                <p>Test</p>
+            </div>
+            <div class="child">
+                <p>Test 2</p>
+            </div>
+        </main>
+    </body>
+</html>
